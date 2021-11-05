@@ -1,7 +1,7 @@
 //routing
 const router = async () => {
     const routes = [ 
-    { path: "/",view: () => console.log("Viewing DashBoard") },
+    { path: "/",view: () => console.log("Search function") },
     ];
 
     const potentialMatches = routes.map(route => {
